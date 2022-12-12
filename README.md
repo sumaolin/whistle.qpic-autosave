@@ -2,7 +2,12 @@
 
 ## Feature
 
-- [ ] 微信图文中的图片 自动保存指定的本地目录
+- [x] 微信图文中的图片 自动保存指定的本地目录
+
+  通过 库 [kevva/download: Download and extract files (github.com)](https://github.com/kevva/download) 实现了下载图片的功能
+
+  - [ ] response中带的数据自动转换成图片，可以参考上面的库来实现
+
 - [x] 修改 `mmbiz.qpic.cn referer://https://mp.weixin.qq.com/` ，这个可以非微信域名下加载微信的图片了，方便调试
 
 
@@ -25,5 +30,5 @@
 1. [avwo/whistle: HTTP, HTTP2, HTTPS, Websocket debugging proxy (github.com)](https://github.com/avwo/whistle) 
 2. [插件开发 · GitBook (wproxy.org)](https://wproxy.org/whistle/plugins.html) 
 3. [whistle-plugins/whistle.autosave: 自动保存指定抓包数据到本地目录 (github.com)](https://github.com/whistle-plugins/whistle.autosave)  
-
+4. [kevva/download: Download and extract files (github.com)](https://github.com/kevva/download) 
 
