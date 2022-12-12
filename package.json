@@ -8,6 +8,7 @@
     "lintfix": "eslint --fix lib"
   },
   "dependencies": {
+    "download": "^8.0.0",
     "koa": "^2.6.2",
     "koa-bodyparser": "^4.2.1",
     "koa-onerror": "^4.1.0",
